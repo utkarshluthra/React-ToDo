@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className="card bg-info text-center text-light rounded-0">
+        <div className="card text-center text-light rounded-0 header">
         <h1 className="display-4">
-        <i className="fas fa-clipboard-list mr-3"></i><span className="text-dark mr-4">ToDo App</span>
+        <i className="mr-3"></i> <span className="text-dark mr-4"> ToDo App</span>
         </h1>
         </div>
     )
