@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Todo extends Component {
     render() {
-        const { title } = this.props.todos
+        const { title } = this.props.todo
         return (
             
             <h3 className="text-dark text-center p-1 bg-light border-bottom">

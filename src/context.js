@@ -4,20 +4,20 @@ const Context = React.createContext()
 
 export class Provider extends Component {
     state = {
-        todo:[
+        todos:[
             {
                 id:1,
-                title:"Check Mail",
+                title:["Check Mail"],
                 completed:false
             },
             {
                 id:2,
-                title:"Check Instagram",
+                title:["Check Instagram"],
                 completed:false
             },
             {
                 id:3,
-                title:"Check SnapChat",
+                title:["Check SnapChat"],
                 completed:false
             },
 
